@@ -67,7 +67,7 @@ class KollaKundTest {
         void getPr () {
             assertEquals(k.getPr().getNamn(), p.getNamn());
             assertEquals(l.getPr().getPersonNr(), p.getPersonNr());
-            assertEquals(l.getPr().getDatum(), p.getDatum());
+
             //kontroll att rätt personobjekt från listan, pr, sparats. Alla 3 variablerna matchas till person p
         }
     }
