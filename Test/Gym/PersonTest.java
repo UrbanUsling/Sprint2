@@ -14,7 +14,7 @@ class PersonTest {
     LocalDate d1 = LocalDate.parse(d);
 
     Person p = new Person(nr, n, d);
-    //ett nytt personobjekt skapas
+    //ett nytt personobjekt skapassssssss
 
 
     @Test
