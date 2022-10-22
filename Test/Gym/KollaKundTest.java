@@ -60,7 +60,7 @@ class KollaKundTest {
         @Test
         void isMedlem () {
             assertTrue(k.isMedlem());
-            assertTrue(l.isMedlem());
+            assertTrue(l.isMedlem()); // en kommentar
         }
         //två enkla getters ovan där boolean kontrolleras att den ändras till true
         @Test
